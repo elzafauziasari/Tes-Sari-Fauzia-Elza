@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap ;
+}
+
+.card {
+    background:beige;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.nasigoreng {
+    background-image: url(https://selerasa.com/wp-content/uploads/2015/05/images_nasi_nasi_goreng_nasi-goreng-biasa-nan-pedas-1200x860.jpg);
+}
+
+.miegoreng {
+    background-image: url(http://kbu-cdn.com/dk/wp-content/uploads/mie-goreng-saus-tiram.jpg);
+}
+
+.bakso{
+    background-image: url(https://cdn.idntimes.com/content-images/post/20200122/bakso-362ae4f801fa9cf14e910faf3cd4eae0_600x400.jpg);
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card a{
+    background-color: rgb(110, 176, 241);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+ 
+.card a:hover{
+    background-color: rgb(110, 176, 241);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
